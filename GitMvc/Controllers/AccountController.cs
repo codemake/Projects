@@ -357,6 +357,7 @@ namespace GitMvc.Controllers
             }
 
             public string Provider { get; private set; }
+            // buradasi degistirildi.
             public string ReturnUrl { get; private set; }
 
             public override void ExecuteResult(ControllerContext context)
